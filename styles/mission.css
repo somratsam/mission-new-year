@@ -2,20 +2,23 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .banner-container {
-    background-image: url(./images/banner/banner1.png);
+    background-image: url("./images/banner/banner1.png");
     display: flex;
     text-align: right;
     justify-content: right;
     align-items: center;
     background-repeat: no-repeat;
     width: 1600px;
-    height: 800px;
-    
+    height: 808px;
+
+
 
 }
+
 .banner-title {
     font-size: 65px;
     font-weight: bold;
@@ -27,27 +30,113 @@
     color: #444343;
 
 }
-.button{
+
+.button {
     height: 50px;
     background: orangered;
-padding: 15px 35px;
-color: white;
-font-size: 20px;
-border: none;
-margin-top: 30px;
+    padding: 15px 35px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
 }
-.banner-details{
+
+.banner-details {
     margin: 150px;
 }
+
 /* middle-part */
-.author-section{
+.author-section {
     display: flex;
+
     justify-content: center;
-    height: 800px;
+    align-items: center;
     width: 1600px;
+    height: 808px;
+
+}
+
+.author-description {
+    margin-bottom: 30px;
+}
+
+.author-title {
+    font-size: 65px;
+    color: #151414;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.author-img {
+    width: 50%;
+}
+
+/* footer-section */
+.footer-title {
     text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.plans-container {
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plans-title {
+    display: flex;
+    margin-top: 70px;
+    gap: 140px;
+    justify-content: center;
+}
+
+.motivated-box {
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    justify-content: center;
+    margin-top: 120px;
+    border-radius: 8px;
+    background-image: url("./images/watch.png");
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.box-title {
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+.m-btn {
+    padding: 20px 35px;
+    margin-left: 20px;
+    color: #F15B22;
+    font-size: medium;
+    border: none;
+
+}
+
+.motivated-box {
+    justify-content: center;
     align-items: center;
 }
-.author-description{
+
+.future-section {
+    display: flex;
+    background-color: black;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+    color: white;
     
 }
