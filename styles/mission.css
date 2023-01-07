@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-container {
+    background-image: url(./images/banner/banner1.png);
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 800px;
+    
+
+}
+.banner-title {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner-descrption {
+    font-size: 16px;
+    color: #444343;
+
+}
+.button{
+    height: 50px;
+    background: orangered;
+padding: 15px 35px;
+color: white;
+font-size: 20px;
+border: none;
+margin-top: 30px;
+}
+.banner-details{
+    margin: 150px;
+}
+/* middle-part */
+.author-section{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 1600px;
+    text-align: center;
+    align-items: center;
+}
+.author-description{
+    
+}
